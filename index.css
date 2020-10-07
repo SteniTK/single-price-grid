@@ -20,7 +20,7 @@ h2 {
 body {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 44% 44% 2%;
+    /* grid-template-rows: 44% 44% 2%; */
     margin: 0;
 }
 

@@ -2,6 +2,12 @@
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
+
+## TO DO :
+- [ ] Add media query for mobile view
+- [x] fix chrome white space footer issue : grid rows were calculated as 3 rows (assumed footer needs to be included but its not)
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
