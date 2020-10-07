@@ -20,7 +20,7 @@ h2 {
 body {
     display: grid;
     grid-template-columns: 50% 50%;
-    /* grid-template-rows: 44% 44% 2%; */
+    grid-template-rows: 50% 50%;
     margin: 0;
 }
 
@@ -93,4 +93,29 @@ footer {
     color: var(--primary-bright);
     background-color: var(--primary);
     grid-column: 1/-1;
+}
+
+@media only screen and (max-width:890px) {
+    body {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 33% 33% 33%;
+        margin: 0;
+    }
+
+    .join-us {
+        grid-row: 1/2;
+        grid-column: auto;
+    }
+    
+    .price {
+        grid-row: 2/3;
+        grid-column: auto;
+    }
+
+    .why-us {
+        grid-row : 3/-1;
+        grid-column: auto;
+    }
+
 }
