@@ -6,7 +6,7 @@
 ## TO DO :
 - [x] Add media query for mobile view
 - [x] fix chrome white space footer issue : grid rows were calculated as 3 rows (assumed footer needs to be included but its not)
-- [ ] fix bug : in ipad view, white space at bottom
+- [x] fix bug : in ipad view, white space at bottom
 
 
 ## Welcome! 👋
